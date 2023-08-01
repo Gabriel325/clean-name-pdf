@@ -4,8 +4,6 @@ from dependence import clean_name_pdf as clean
 
 
 def listar_pdf_no_diretorio():
-   
-    diretorio = os.getcwd()
     pdfs_do_diretorio = glob.glob(f"*pdf")
 
     return pdfs_do_diretorio
