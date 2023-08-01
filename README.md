@@ -6,7 +6,7 @@ O projeto surgiu de um problema onde recebi um conjunto de pdfs que chegaram do 
 
 Neste script contém 2 propósitos:
 - listar os arquivos pdfs no repositório onde está localizado;
-	- utilizei o módulo [glob.glob()](https://docs.python.org/3/library/os.html#os.rename) para listar.
+	- utilizei a função [glob.glob()](https://docs.python.org/3/library/os.html#os.rename) para listar.
 - e renomear os pdfs listados na váriavel lista_pdf.
 	- utilizei a função [os.rename()](https://docs.python.org/3/library/os.html#os.rename) para renomear.
 
